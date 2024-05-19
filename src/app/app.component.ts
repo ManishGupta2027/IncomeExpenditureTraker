@@ -4,7 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { MaterialModule } from './material/material.module';
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
-import { CustomTitlecasePipe } from './titlecase.pipe'; // Adjust the path as needed
+
 @Component({
   selector: 'app-root',
   standalone: true,

@@ -7,7 +7,7 @@ import { CustomTitlecasePipe } from '../titlecase.pipe'; // Adjust the path as n
 @Component({
   selector: 'side-nav',
   standalone: true,
-  imports: [MaterialModule, RouterModule],
+  imports: [MaterialModule, RouterModule,CustomTitlecasePipe],
   templateUrl: './side-nav.component.html',
   styleUrl: './side-nav.component.scss',
 })
